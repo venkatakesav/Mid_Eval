@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ESW Project</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1 id="title">ESW PROJECT</h1>
+  <div class="set">
+    <button class="w drum pressed"><h2>co2</h2><p></p></button>
+
+    <button class="a drum pressed"><h2>VOC</h2><p></p></button>
+    <button class="s drum pressed"><h2>pm2</h2><p></p></button>
+    <button class="d drum pressed"><h2>pm10</h2><p></p></button>
+    <button class="j drum pressed"><h2>Temperature</h2><p></p></button>
+    <button class="k drum pressed"><h2>Humidity</h2><p></p></button>
+  </div>
+  <div class="set">
+    <fieldset>
+      <legend>
+        <h1>CO2 Graph</h1>
+      </legend>
+      <iframe width="500" height="300" style="border: 1px solid #cccccc;"
+        src="https://thingspeak.com/channels/1921442/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    </fieldset>
+    <fieldset>
+      <legend>
+        <h1>VOC Graph</h1>
+      </legend>
+      <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+        src="https://thingspeak.com/channels/1921442/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    </fieldset>
+    <fieldset>
+      <legend>
+        <h1>pm2 Graph</h1>
+      </legend>
+      <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+        src="https://thingspeak.com/channels/1921442/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    </fieldset>
+    <fieldset>
+      <legend>
+        <h1>pm10 Graph</h1>
+      </legend>
+      <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+        src="https://thingspeak.com/channels/1921442/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    </fieldset>
+    <fieldset>
+      <legend>
+        <h1>Temperature Graph</h1>
+      </legend>
+      <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+        src="https://thingspeak.com/channels/1921442/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    </fieldset>
+    <fieldset>
+      <legend>
+        <h1>Humidity Graph</h1>
+      </legend>
+      <iframe width="450" height="260" style="border: 1px solid #cccccc;"
+        src="https://thingspeak.com/channels/1921442/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    </fieldset>
+  </div>
+
+
+  <footer>
+    
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
